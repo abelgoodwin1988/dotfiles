@@ -1,0 +1,34 @@
+{
+    "workbench.colorTheme": "greenery light",
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "window.zoomLevel": 0,
+    "files.exclude": {
+        "**/.git": false
+    },
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        "<>",
+        [
+            "<",
+            "/>"
+        ],
+        [
+            "</",
+            ">"
+        ],
+        [
+            "Gold",
+            "Orchid",
+            "DeepSkyBlue"
+        ],
+        "Red"
+    ],
+    "editor.largeFileOptimizations": false,
+    "liveshare.featureSet": "insiders",
+}
