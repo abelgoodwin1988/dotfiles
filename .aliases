@@ -1,0 +1,14 @@
+# aliases for project dirs
+
+# alias for docker compose
+alias dc='docker-compose'
+alias dcstop='docker container stop $(docker container ls -q)'
+alias dcstart='docker container start $(docker container ls -aq)'
+
+# aliases for docker
+docker_cleanup () {
+    docker kill $(docker ps -q)
+    docker rm $(docker ps -a -q)
+    docker volume rm $(docker volume ls -f dangling=true -q)
+    docker rmi $(docker images -q -f dangling=true)
+}
